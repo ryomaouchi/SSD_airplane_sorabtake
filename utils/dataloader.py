@@ -71,7 +71,7 @@ class DataTransform():
     
 
     
-class RareplaneDataset(data.Dataset):
+class RareplanesDataset(data.Dataset):
     
     def __init__(self, img_list, anno_list, phase, transform, transform_anno):
         self.img_list = img_list
